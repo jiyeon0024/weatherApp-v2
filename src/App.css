@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Mukta:wght@400;600&family=Roboto:wght@100;400;700&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.appContainer {
+  background-size: cover;
+  /* background-image: url(https://www.itl.cat/pngfile/big/304-3041358_iphone-night-sky-star.jpg); */
+  background-image: url(https://a-static.besthdwallpaper.com/sydney-australia-wallpaper-2048x768-28665_85.jpg);
+  background-repeat: none;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.wrap {
+  width: 60vw;
+  border-radius: 20px;
+  height: 80vh;
+  border-radius: 20px;
+
+  backdrop-filter: blur(30px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 7px, rgba(0, 0, 0, 0.22) 0px 2px 2px;
+}
+
+.para {
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.subPara {
+  font-size: 35px;
+}
+
+.paraWrap {
+  padding: 50px;
+}
+
+.btn {
+  float: right;
+  margin: 20px 30px;
+  text-shadow: 0 0 15px rgba(255, 211, 222, 1);
+}
+
+.searchInput:focus {
+  /* border: 2px solid lightgray;
+   */
+  /* box-shadow: 0 5px 25px 0 cyan inset, 0 5px 25px 0 cyan,
+    0 5px 25px 0 cyan inset, 0 5px 25px 0 cyan;
+  text-shadow: 0 0 5px cyan; */
+
+  box-shadow: 0 5px 25px 0 rgba(255, 211, 222, 1) inset,
+    0 5px 25px 0 rgba(255, 211, 222, 1),
+    0 5px 25px 0 rgba(255, 211, 222, 1) inset,
+    0 5px 25px 0 rgba(255, 211, 222, 1);
+  text-shadow: 0 0 5px rgba(255, 211, 222, 1);
+}
+
+.searchIcon {
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: -60px;
+}
+
+.searchWrap {
+  display: flex;
+  align-item: center;
+  justify-content: center;
+  margin-top: 150px;
+}
